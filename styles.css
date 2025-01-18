@@ -1,0 +1,90 @@
+/* styles.css */
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Sans-Serif;
+}
+  
+body {
+    height: 100vh;
+    background:linear-gradient(135deg, #6e45e2, #88d3ce);
+    background: url('https://assets.onecompiler.app/42vuc9qea/435m9b665/1000089805.jpg'), linear-gradient(135deg, #6e45e2, #88d3ce);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+.login-container {
+    background-image: rgba(255, 255,255,0.1);
+    padding: 2rem;
+    border-width: 350px;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+    width: 300%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 5px 0 5px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.input-box input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+p {
+  margin-top: 1rem;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#errorMsg {
+    color: red;
+    text-align: center;
+}
